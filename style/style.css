@@ -70,7 +70,6 @@ background-color: #d77a7c;
 .for-me::after {
   content: "  (it's for me!)";
   font-size: 10px;
-  text-decoration: none;
 }
 
 .for-my-friends::after {
