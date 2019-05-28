@@ -1,0 +1,79 @@
+body{
+  background-color: #3b3f45;
+  margin:0;
+  font-family: 'Trebuchet MS', Trebuchet, Arial, sans-serif;
+}
+
+*{
+  transition: all .1s ease-in;
+}
+
+.heading{
+  width: 100%;
+  background-color: #4a4f56;
+  text-align: center;
+  color:#d77a7c;
+  padding:  5px 0 5px 0;
+}
+
+.container{
+  text-align: center;
+}
+
+.main-table{
+  width: 700px;
+  font-size: 20px;
+  margin:20px;
+  text-align: left;
+  display: inline-block;
+  color:white;
+  border-collapse: collapse;
+}
+
+.main-bottom{
+  width: 700px;
+  margin-top:30px;
+  background-color: #4a4f56;
+  text-align: center;
+  display: inline-block;
+  color:#d77a7c;
+}
+
+.main-table tr{
+  background-color: #88839e;
+}
+
+.main-table td{
+  width: 700px;
+  height:40px;
+}
+
+.main-table tr:nth-child(2n){
+  background-color: #5f5b75;
+}
+
+.main-table td:hover{
+  background-color: #363444;
+  border-top:2px solid white;
+  border-bottom:2px solid white;
+}
+
+.main-table td:active{
+background-color: #d77a7c;
+}
+
+.main-table input:checked+span{
+  text-decoration: line-through;
+  color: #ffffff8c;
+}
+
+.for-me::after {
+  content: "  (it's for me!)";
+  font-size: 10px;
+  text-decoration: none;
+}
+
+.for-my-friends::after {
+  content: "  (it's for my friends!)";
+  font-size: 10px;
+}
